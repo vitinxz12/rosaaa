@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌹 Rosa do Amor 🌹</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🌹 Rosa do Amor 🌹</h1>
+
+  <label for="dataInicio">Data do início do namoro:</label>
+  <input type="date" id="dataInicio" />
+
+  <div id="rosaContainer">
+    <img src="https://i.postimg.cc/hvfGtmcV/Chat-GPT-Image-7-de-abr-de-2025-20-36-17.png" alt="Rosa" id="rosa" />
+  </div>
+
+  <div id="tempoContainer">
+    <div><span id="anos">0</span> anos</div>
+    <div><span id="meses">0</span> meses</div>
+    <div><span id="dias">0</span> dias</div>
+    <div><span id="horas">0</span> horas</div>
+  </div>
+
+  <!-- Upload de imagem -->
+  <div class="imagem-upload">
+    <label for="imagemInput">📸 Escolha uma imagem especial:</label>
+    <input type="file" id="imagemInput" accept="image/*" />
+    <div id="imagemPreviewContainer">
+      <img id="imagemPreview" />
+    </div>
+  </div>
+
+  <!-- Player automático do Spotify -->
+  <div id="spotifyAutoPlayerContainer">
+    <iframe style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/1DLKuppSYytOuxhtI6KBGu?utm_source=generator&autoplay=1"
+      width="100%" height="80" frameborder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
